@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="Calculator image.jpeg">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator for CodeSoft Internship</title>
+</head>
+
+<body>
+  <header>
+    <center>
+      <h2>Calculator by <span><h1>Abinesh Srinivasan</h1></span></h2>
+    </center>
+  </header>
+  <center>
+    <div class="calculator">
+      <div class="CalculatorHeader">
+        <img src="abinesh.png" alt="abinesh.png">
+        <h3 class="codsoft">CodSoft</h3>
+        <p class="Name">AS</p>
+      </div>
+      <div class="DisplayScreen"><input class="input"></div>
+      <div class="buttons">
+        <button type="button" class="Button ACButton" onclick="clearInputElement()">AC</button>
+        <button type="button" class="Button" onclick="deleteInputElement()">DEL</button>
+        <button type="button" class="Button" onclick="answerCalculation()">=</button>
+        <button type="button" class="Button NumberButton" onclick="inputNumber('7')">7</button>
+        <button type="button" class="Button NumberButton" onclick="inputNumber('8')">8</button>
+        <button type="button" class="Button NumberButton" onclick="inputNumber('9')">9</button>
+        <button type="button" class="Button NumberButton" onclick="inputNumber('4')">4</button>
+        <button type="button" class="Button NumberButton" onclick="inputNumber('5')">5</button>
+        <button type="button" class="Button NumberButton" onclick="inputNumber('6')">6</button>
+        <button type="button" class="Button NumberButton" onclick="inputNumber('1')">1</button>
+        <button type="button" class="Button NumberButton" onclick="inputNumber('2')">2</button>
+        <button type="button" class="Button NumberButton" onclick="inputNumber('3')">3</button>
+        <button type="button" class="Button" onclick="inputNumber('/')">/</button>
+        <button type="button" class="Button" onclick="inputNumber('-')">-</button>
+        <button type="button" class="Button" onclick="inputNumber('+')">+</button>
+        <button type="button" class="Button" onclick="inputNumber('*')">*</button>
+        <button type="button" class="Button" onclick="inputNumber('0')">0</button>
+        <button type="button" class="Button" onclick="inputNumber('.')">.</button>
+      </div>
+    </div>
+  <div class="description">
+    <h3 class="descriptionTitle">Description</h3>
+    <p class="DescriptionContent">
+      <span class="ThisWord">This</span> calculator website, conceived as a Codsoft internship task, efficiently performs basic arithmetic operations such as addition, subtraction, multiplication, and division via a user-friendly interface. Numeric and symbol key mappings align with their corresponding keyboard buttons. To remove an element, utilize the 'Delete' button. For the 'All Clear' (AC) function, employ the 'Backspace' button. If the Displayed Answer gets out of range when displaying, kindly touch the display screen and drag to see the full answer. This project underscores the application of programming skills, showcasing a commitment to precision and functionality in software development at Codsoft.
+    </p>
+  </div>
+  </center>
+</body>
+
+<script src="script.js"></script>
+</html>
