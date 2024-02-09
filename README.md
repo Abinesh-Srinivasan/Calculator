@@ -18,4 +18,4 @@ This project is a simple calculator website built as a task assigned during an i
 - **JavaScript:** Used for implementing the calculator logic and user interactions.
 
 ## Visit Website
-You can visit the website [https://abinesh-srinivasan.github.io/Calculator/](#).
+You can visit the website https://abinesh-srinivasan.github.io/Calculator/
